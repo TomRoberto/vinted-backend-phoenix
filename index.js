@@ -25,7 +25,7 @@ app.use(userRoutes);
 app.use(offerRoutes);
 
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to my project" });
+  res.json({ message: "Welcome to my project hello" });
 });
 
 app.all("*", (req, res) => {
